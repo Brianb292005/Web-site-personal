@@ -1,0 +1,93 @@
+/* Estilos generales */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: #ed713f;
+    color: #CD5C5C;
+    margin: 0;
+    padding: 0 15px;
+}
+
+h1, h2, h3 {
+    color: #2c3e50;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 3em;
+}
+
+center {
+    display: block;
+    text-align: center;
+}
+
+/* Estilo para imágenes */
+img {
+    border-radius: 15px;
+ box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 3s ease, box-shadow 0.5s ease;
+    max-width: 90%;
+    height: auto;
+    margin: 15px 0;
+}
+
+img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+/* Párrafos */
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto 20px;
+    padding: 10px;
+    background-color: #f1efef;
+    border-left: 5px solid #3498db;
+}
+
+/* Lista de pasatiempos */
+ul {
+    list-style: none;
+    padding-left: 0;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+ul li {
+    background: #ecf0f1;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    transition: background 0.3s ease;
+}
+
+ul li:hover {
+    background: #d0eafc;
+}
+a {
+    text-decoration: none;
+    color: #2980b9;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #1abc9c;
+}
+
+/* Redes sociales */
+div:last-child ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+div:last-child ul li {
+    display: flex;
+ align-items: center;
+    gap: 10px;
+}
+
+
